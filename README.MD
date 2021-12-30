@@ -12,3 +12,7 @@
 - Before After test bisa menggunakan parameter testing.M untuk mengatur eksekusi unit test menggunakan main, contoh kita harus membuat function bernama TestMain dengan parameter testing.M
 - Untuk melakukan subtest kita bisa menggunakan function Run() dari testing.T
 - perintah untuk menjalankan subtest `go test -v -run=TestSubTest/Ravi`
+- Table Test digunakan untuk membuat unit test yg banyak dengan data dan juga expectasi yg sudah dibuat sebelumnya
+- Benchmark merupakan kemampuan Golang untuk mengetes performa dari kode program yang kita buat
+- Struct untuk melakukan benchmark adalah testing.B
+- perintah untuk menjalankan benchmark adalah `go test -v -bench=.`
